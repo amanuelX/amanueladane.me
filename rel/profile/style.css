@@ -1,0 +1,244 @@
+*{
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+    margin: 0%;
+}
+img{
+  width: 100%;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background-size:cover;
+    background-image:linear-gradient(to top, #020316 10%, #000000c7 61%),url(https://source.unsplash.com/900x1600/?code);
+    display: grid;
+    grid-template-rows: 8% 45% 8% 10% 10%;
+    overflow: hidden;
+}
+.title{
+    width: 100%;
+    text-align: center;
+    color: aliceblue;
+    font-weight: 700;
+    font-size: 40px;
+}
+.abc{
+  float: le;
+}
+.profile{
+    width: 100%;
+    align-items: center;
+
+}
+button{
+  width: 60px;
+  height: 20px;
+  margin: 13px;
+  color: #fff;
+  padding: 2px;
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid cyan;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+button:hover{
+  background-color: rgba(0, 255, 255, 0.699);
+  color: none;
+  transition: all 0.3s ease;
+}
+.pic{
+    width: 230px;
+    height: 230px;
+   
+    z-index: 990;
+    margin: auto;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid white;
+}
+.name{
+    
+    padding: 0px;
+    text-align: center;
+    font-family: cursive;
+}
+h1{
+  color: aliceblue;
+  padding: 0px;
+  margin: 0px;
+}
+p{
+  color: aliceblue;
+  padding: 0px;
+  margin-bottom: 1230px;
+}
+.qoute{
+  text-align: center;
+}
+.bio{
+    width: 100%;
+    text-align: center;
+    color: wheat;
+    font-size: 25px;
+}
+.socials{
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+ 
+}
+  
+
+  
+  /* Icons */
+  
+  a {
+    color:#fff;
+    background: #030113;
+    border-radius:4px;
+    text-align:center;
+    text-decoration:none;
+    font-family:fontawesome;
+   
+    display: inline-block;
+    width:40px;
+    height:28px;
+    padding-top:12px;
+    margin:0 2px;
+    -o-transition:all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+     -webkit-font-smoothing: antialiased;
+  }
+  
+  a:hover {
+    background: #050001;
+  }
+  
+  /* pop-up text */
+  
+  a span {
+    color:#666;
+    position:absolute;
+    font-family:sans-serif;
+    bottom:0;
+    left:-25px;
+    right:-25px;
+    padding:5px 7px;
+    z-index:-1;
+    font-size:14px;
+    border-radius:2px;
+    background:#fff;
+    visibility:hidden;
+    opacity:0;
+    -o-transition:all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -webkit-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -moz-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  /* pop-up text arrow */
+  
+  a span:before {
+    content:'';
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #fff;
+    position:absolute;
+    bottom:-5px;
+    left:40px;
+  }
+  
+  /* text pops up when icon is in hover state */
+  
+  a:hover span {
+    bottom:50px;
+    visibility:visible;
+    opacity:1;
+  }
+  
+  /* font awesome icons */
+  
+  a:nth-of-type(1):before {
+  content:'\f09a';
+  }
+  a:nth-of-type(2):before {
+  content:'\f099';
+  }
+  a:nth-of-type(3):before {
+  content:'\f16d';
+  }
+  a:nth-of-type(4):before {
+  content:'\f113';
+  }
+  a:nth-of-type(5):before {
+  content:'\f16a';
+  }
+  a:nth-of-type(6):before {
+  content:'\f2c6';
+  }
+
+
+  /*mobile responsive*/
+@media (max-width: 1300px) {
+  
+}
+@media (max-width: 1104px) {
+  
+}
+
+@media (max-width: 991px) {
+ 
+}
+
+
+@media (max-width: 940px) {
+  .container{
+    width: 100%;
+    height: 100%;
+    background-size:cover;
+    background-image:linear-gradient(to top, #020316 10%, #000000c7 61%),url(https://source.unsplash.com/900x1600/?girl);
+    display: grid;
+    grid-template-rows: 8% 50% 10% 10% 10%;
+    overflow: hidden;
+  }
+.pic{
+  width: 250px;
+  height: 250px;
+}  }
+
+@media (max-width: 690px) {
+  .container{
+    width: 100%;
+    height: 100%;
+    background-size:cover;
+    background-image:linear-gradient(to top, #020316 10%, #000000c7 61%),url(https://source.unsplash.com/900x1600/?girl);
+    display: grid;
+    grid-template-rows: 8% 45% 10% 12% 10%;
+    overflow: hidden;
+}
+.pic{
+  width: 200px;
+  height: 200px;
+}
+}
+  @media (max-width: 320px) {
+    .container{
+      width: 100%;
+      height: 100%;
+      background-size:cover;
+      background-image:linear-gradient(to top, #020316 10%, #000000c7 61%),url(https://source.unsplash.com/900x1600/?girl);
+      display: grid;
+      grid-template-rows: 15% 40% 15% 12% 10%;
+      overflow: hidden;
+  }
+  .pic{
+    width: 200px;
+    height: 200px;
+  }
+  }
+
